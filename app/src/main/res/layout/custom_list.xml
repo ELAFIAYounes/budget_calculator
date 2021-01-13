@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10px">
+
+    <TextView
+        android:id="@+id/custom_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:layout_gravity="left"
+        android:layout_margin="10px"
+        android:padding="5px"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/custom_prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5px"
+        android:layout_weight="1"
+        android:text="Prix"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"
+        android:layout_marginRight="10px"
+       />
+
+    <TextView
+        android:id="@+id/custom_dateT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"
+        android:padding="5px"/>
+</LinearLayout>
